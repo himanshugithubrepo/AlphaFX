@@ -1,4 +1,5 @@
-import AboutUs from "../components/aboutus/aboutUs";
+
+import AboutUs from "../components/aboutus/AboutUs";
 import TeamSection from "../components/common/TeamSection";
 import Footer from "../components/Footer";
 import HorizontalScroller from "../components/homepage/HorizontalImageScroller";
@@ -13,9 +14,9 @@ export default function HomePage(){
     <>
       <PortfolioHeader />
       <IntroBox />
-      
-      <HorizontalScroller/>
       <AboutUs/>
+      <HorizontalScroller/>
+      
       <TeamSection/>
       <Footer/>
     
