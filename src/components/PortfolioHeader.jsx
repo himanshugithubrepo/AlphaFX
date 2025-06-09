@@ -6,10 +6,14 @@ import MobileMenuToggle from "./MobileMenuToggle";
 export default function PortfolioHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => setMenuOpen(prev => !prev);
+  const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   return (
-    <header className="flex justify-between items-center p-2 shadow-md bg-blue-400 text-white">
+    <header
+      className="flex justify-between items-center w-full fixed z-50 px-6 py-3
+  backdrop-blur-md bg-black/30 border-b border-white/20 shadow-lg
+  text-white font-sans"
+    >
       <SocialAside />
       <PortfolioNavbar />
       <MobileMenuToggle />

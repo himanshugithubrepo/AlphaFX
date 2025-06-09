@@ -1,0 +1,30 @@
+:root {
+  --font-heading: 'Bebas Neue', cursive;
+  --font-body: 'Montserrat', sans-serif;
+  --font-ui: 'Space Grotesk', sans-serif;
+}
+
+/* VFX Theme Colors */
+:root {
+  --bg-dark: #0D0D0D;
+  --text-primary: #ffffff;
+  --text-muted: #cccccc;
+  --accent-red: #E50914;  /* Netflix red */
+  --accent-neon: #1ED760; /* Neon green */
+  --border-gray: #444;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE */
+  scrollbar-width: none; /* Firefox */
+}
+

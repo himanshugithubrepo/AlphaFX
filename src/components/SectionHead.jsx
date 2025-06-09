@@ -6,7 +6,7 @@ export default function SectionHead(){
     return(
         <section>
             <Categories category="Projects"/>
-            <Categories category="Tech Stack"/>
+            
             
         </section>
     )
