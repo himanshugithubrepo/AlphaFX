@@ -12,17 +12,16 @@ import SectionHead from "../components/SectionHead";
 export default function HomePage(){
     return(
     <>
-  <PortfolioHeader /> {/* fixed */}
-
-  <main className="pt-[64px] overflow-y-auto">
-    <IntroBox />
-    <AboutUs />
-    <HorizontalScroller />
-    <TeamSection />
-    <Footer />
-  </main>
-</>
-
+      <PortfolioHeader />
+      <IntroBox />
+      <HorizontalScroller/>
+      <AboutUs/>
+      
+      
+      <TeamSection/>
+      <Footer/>
+    
+    </>
       
     )
 }
