@@ -9,8 +9,10 @@ export default function PortfolioHeader() {
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
   return (
+    
+    
     <header
-      className="flex justify-between items-center w-full fixed z-50 px-6 py-3
+      className="flex justify-between items-center w-full fixed z-[24] px-6 py-3
   backdrop-blur-md bg-black/30 border-b border-white/20 shadow-lg
   text-white font-sans"
     >
@@ -18,5 +20,8 @@ export default function PortfolioHeader() {
       <PortfolioNavbar />
       <MobileMenuToggle />
     </header>
+    
+  
+    
   );
 }

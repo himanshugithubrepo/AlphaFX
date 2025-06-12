@@ -1,6 +1,6 @@
 export default function Profile() {
   return (
-    <div className="relative w-screen h-screen overflow-hidden">
+    <div className="relative w-screen h-screen overflow-hidden z-[0]">
       <video
         autoPlay
         loop

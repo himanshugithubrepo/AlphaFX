@@ -21,7 +21,7 @@ export default function CustomCursor() {
   return (
     <div
       ref={dotRef}
-      className="fixed top-0 left-0 z-[9999] w-2.5 h-2.5 bg-[#cccccc] rounded-full pointer-events-none transition-transform duration-100 ease-out"
+      className="hidden lg:block fixed top-0 left-0 z-[9999] w-2.5 h-2.5 bg-[#cccccc] rounded-full pointer-events-none transition-transform duration-100 ease-out"
     />
   );
 }

@@ -11,8 +11,10 @@ import ThreeD1 from "../../assets/ThreeD1.jpg";
 import ThreeD2 from "../../assets/ThreeD2.jpg";
 import ThreeD3 from "../../assets/ThreeD3.jpg";
 import ThreeD4 from "../../assets/ThreeD4.jpg";
+import vfx1 from "../../assets/vfx1.jpg";
+import vfx2 from "../../assets/vfx2.jpg";
 
-const images = [spectacular, d2, d3, d4, videdit1, videdit2,ThreeD1,ThreeD2,ThreeD3,ThreeD4];
+const images = [spectacular, d2, d3, d4, videdit1, videdit2,ThreeD1,ThreeD2,ThreeD3,ThreeD4,vfx1,vfx2];
 
 export default function HorizontalScroller() {
   const scrollRef = useRef(null);
@@ -27,7 +29,7 @@ export default function HorizontalScroller() {
   };
 
   return (
-    <section className="py-16 px-6 mt-24 bg-gray-950 text-white relative">
+    <section className="py-16 px-6 bg-gray-950 text-white relative">
       <h2 className="text-xl font-semibold mb-8">Our Works</h2>
 
       {/* Scroll Buttons */}
