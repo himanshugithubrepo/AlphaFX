@@ -4,6 +4,7 @@ import team4 from '../../assets/team4.jpg'
 import akshay from '../../assets/akshay.jpg'
 import himanshu from '../../assets/himanshu.jpg'
 import suraj from '../../assets/suraj.jpg'
+import gurinder from '../../assets/gurinder.jpg'
 
 export default function TeamSection() {
   const teamData = [
@@ -36,6 +37,12 @@ export default function TeamSection() {
       name: "Suraj Katule",
       position: "3D Animator",
       city:"Maharashtra"
+    },
+    {
+      imgUrl: gurinder, // You can replace this with an actual image path or avatar
+      name: "Gurinder",
+      position: "Video Editor and Color Grading Artist",
+      city:"Chandigarh"
     },
     {
       imgUrl: himanshu, // You can replace this with an actual image path or avatar
