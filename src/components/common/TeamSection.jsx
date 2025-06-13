@@ -9,16 +9,16 @@ import gurinder from '../../assets/gurinder.jpg'
 export default function TeamSection() {
   const teamData = [
     {
-      imgUrl: aditya, // You can replace this with an actual image path or avatar
-      name: "Aditya Seth",
-      position: "3D and VFX Artist",
-      city:"Chandigarh"
-    },
-    {
       imgUrl: rahul,
       name: "Rahul",
       position: "Founder ( VFX Compositing Artist)",
       city:"Himachal Pradesh"
+    },
+    {
+      imgUrl: aditya, // You can replace this with an actual image path or avatar
+      name: "Aditya Seth",
+      position: "3D and VFX Artist",
+      city:"Chandigarh"
     },
     {
       imgUrl: team4,
