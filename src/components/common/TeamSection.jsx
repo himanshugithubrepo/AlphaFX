@@ -15,7 +15,7 @@ export default function TeamSection() {
       city:"Himachal Pradesh"
     },
     {
-      imgUrl: aditya, // You can replace this with an actual image path or avatar
+      imgUrl: aditya, 
       name: "Aditya Seth",
       position: "3D and VFX Artist",
       city:"Chandigarh"
@@ -33,19 +33,19 @@ export default function TeamSection() {
       city:"Maharashtra"
     },
     {
-      imgUrl: suraj, // You can replace this with an actual image path or avatar
+      imgUrl: suraj, 
       name: "Suraj Katule",
       position: "3D Animator",
       city:"Maharashtra"
     },
     {
-      imgUrl: gurinder, // You can replace this with an actual image path or avatar
+      imgUrl: gurinder, 
       name: "Gurinder",
       position: "Video Editor and Color Grading Artist",
       city:"Chandigarh"
     },
     {
-      imgUrl: himanshu, // You can replace this with an actual image path or avatar
+      imgUrl: himanshu, 
       name: "Himanshu Sharma",
       position: "Full Stack Developer",
       city:"Chandigarh"
