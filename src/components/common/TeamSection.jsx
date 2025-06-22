@@ -2,7 +2,7 @@ import aditya from '../../assets/aditya.jpg'
 import rahul from '../../assets/rahul.jpg'
 import team4 from '../../assets/team4.jpg'
 import akshay from '../../assets/akshay.jpg'
-import himanshu from '../../assets/himanshu.jpg'
+import himanshu from '../../assets/himanshu1.jpg'
 import suraj from '../../assets/suraj.jpg'
 import gurinder from '../../assets/gurinder.jpg'
 
@@ -14,12 +14,7 @@ export default function TeamSection() {
       position: "Founder ( VFX Compositing Artist)",
       city:"Himachal Pradesh"
     },
-    {
-      imgUrl: aditya, 
-      name: "Aditya Seth",
-      position: "3D and VFX Artist",
-      city:"Chandigarh"
-    },
+    
     {
       imgUrl: team4,
       name: "Simran Wahi",
